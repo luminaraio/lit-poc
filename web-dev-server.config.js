@@ -14,6 +14,7 @@ export default {
       polyfills: {
         // Manually imported in index.html file}
         // Another comment
+//Test comment to GoodDay....
         webcomponents: false,
       },
     }),
