@@ -1,8 +1,3 @@
-/**
- * @license
- * Copyright 2021 Google LLC
- * SPDX-License-Identifier: BSD-3-Clause
- */
 
 import {legacyPlugin} from '@web/dev-server-legacy';
 
@@ -17,7 +12,9 @@ export default {
   plugins: [
     legacyPlugin({
       polyfills: {
-        // Manually imported in index.html file
+        // Manually imported in index.html file}
+        // Another comment
+//Test comment to GoodDay....
         webcomponents: false,
       },
     }),
